@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">JFJ-SF-V007</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGvEroMAEqkCVlmZEOpradQAAAAACAAAAAAADZgAAwAAAABAAAAD1uo5jcQmBN/d/In8Sb0O6AAAAAASAAACgAAAAEAAAAOajb61JRiB1LsnWAKitjouIAAAAt9KgKcRfPvVtjMXiVMtRlEgDIW8Zl0U+Iipe9qkUkA7haBvAgbgh/2lQ63wx7nvu4o1J8EN14tQquxOKGipDNWoVI9NojBRIU+Xtl/dW6bwaQfNcUy7YkJ0PgKT+LdAef7KW5ESskbmrdhEwhf3xQZuGeTTQytSWUGRoIMzI1N2Dv/MDVkXFzxQAAAA4S9Wd1Fvky6hd4Wm5ISzpC3iAFA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGvEroMAEqkCVlmZEOpradQAAAAACAAAAAAADZgAAwAAAABAAAAA+ZyyYI3C0fCmvFsjP2N2gAAAAAASAAACgAAAAEAAAABKDMoiotsXzuFeUIqwYLkeIAAAACygf4wXMXY3T/Q/OD+Jzg7dPCbgWRsQbVbXRgTiXb36XI25LZLI2zGX5qDTbNru+hEsBGto25SrxJLQc/b82ZxMdr27OQ9hyFb79hTfd+KOjbPmqpUhuar7Tkls8cNeD2gJx8H2abPw8FzYXspvUBs0QvDPW8CBzwaB4Pbxxi0kmzeVtQnpcFxQAAABG6BM2zHP+tZxa6w0v7HlUAu11AQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">5</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">16</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{6B1D0695-1BDA-4B1D-95EF-E3D85BBFBC2C}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{CEE86722-04D4-4573-A416-99DE140F1B89}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -273,23 +273,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">true</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
-                  </SSIS:Properties>
-                </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager 1.ConnectionString">
-                  <SSIS:Properties>
-                    <SSIS:Property SSIS:Name="ID">
-                    </SSIS:Property>
-                    <SSIS:Property SSIS:Name="CreationName">
-                    </SSIS:Property>
-                    <SSIS:Property SSIS:Name="Description">
-                    </SSIS:Property>
-                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\zmadmin\Desktop\3I Donor Acquisition\Output.csv</SSIS:Property>
-                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.Flat File Connection Manager 1.DataRowsToSkip">

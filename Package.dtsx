@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{84B9D880-7E35-4047-A8BF-3D3C53D90A0B}">
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{96F1D6D4-E238-49D5-9596-6EEEB20853E6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -176,15 +176,18 @@
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{AA2FA791-6543-4A78-A231-A76C68C139E3}"
       DTS:ObjectName="Flat File Connection Manager 1">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">"C:\\Users\\zmadmin\\Desktop\\3I Donor Acquisition\\" + Right("0" + (DT_STR,4,1252) DatePart("yy",getdate()),2) + Right("0" + (DT_STR,4,1252) DatePart("m",getdate()),2) + Right("0" + (DT_STR,4,1252) DatePart("d",getdate()),2) + " - " + TRIM( UPPER(@[User::MissionaryCode] ) ) + ".csv"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
           DTS:LocaleID="1033"
           DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\zmadmin\Desktop\3I Donor Acquisition\Output.csv">
+          DTS:ConnectionString="C:\Users\zmadmin\Desktop\3I Donor Acquisition\210923 - .csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -193,7 +196,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Lookup ID"
-              DTS:DTSID="{33E39294-3401-4399-9080-AB2ADDB30720}"
+              DTS:DTSID="{73B144E7-8A3D-4173-985A-5109541F91DE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -202,7 +205,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Organization name"
-              DTS:DTSID="{3F0B897C-5C48-447C-AC6B-C3ECBFE3D464}"
+              DTS:DTSID="{0C8360D0-3BF0-4B1E-A375-B2F1040EADD1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -211,7 +214,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Addressee"
-              DTS:DTSID="{718096F2-167C-41F5-BE3F-53A44C346D53}"
+              DTS:DTSID="{B098010A-8449-4CFA-8ACE-B895DFB27733}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -220,7 +223,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Salutation"
-              DTS:DTSID="{D6E3BD63-1159-4966-B039-0C4D31A60B2B}"
+              DTS:DTSID="{CBBBBA08-5C7C-4347-8285-0C1AFF56E27D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -229,7 +232,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Date added"
-              DTS:DTSID="{06956155-D381-4B10-9D68-B4472CC47386}"
+              DTS:DTSID="{4BCCD235-13C9-4EE7-935C-3A641AE346EE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -238,7 +241,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Miss  code"
-              DTS:DTSID="{BDF84702-8E35-470D-A06E-D0C58A3939D8}"
+              DTS:DTSID="{D21D1022-540E-44A9-8A7B-FC477A8611D7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -247,7 +250,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Email"
-              DTS:DTSID="{019EAEFB-29D7-40A0-9CCA-F2DFDD62C72D}"
+              DTS:DTSID="{1DA7AC87-D1A5-4160-A6D4-2F23D816FDC0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -256,7 +259,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Address"
-              DTS:DTSID="{6A96162A-7767-4178-8AD1-C0540F1DB24D}"
+              DTS:DTSID="{172A126F-0857-4AFC-8CEB-FE76023BFA6C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -265,7 +268,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="City"
-              DTS:DTSID="{CBFDAAB1-0335-426C-A250-36634C1E3F72}"
+              DTS:DTSID="{8CEB0FB0-9F54-4110-8574-BDD17B289396}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -274,7 +277,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="State"
-              DTS:DTSID="{85CE723B-3914-41AA-9DC9-79E363D746B0}"
+              DTS:DTSID="{3E08C943-62AC-43D7-A151-2B4DD698311D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -283,7 +286,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ZIP"
-              DTS:DTSID="{3134D1D8-6C92-43AC-82F4-29102FA63832}"
+              DTS:DTSID="{3E9EADE1-83F4-4038-A90A-414CEB97D4C7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -292,7 +295,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Country"
-              DTS:DTSID="{F2CFDA6D-CAD6-458A-8B26-A6B7109BB645}"
+              DTS:DTSID="{E271E654-2BFA-4731-B284-F3BEA1AE24D0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -301,7 +304,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="First gift dt"
-              DTS:DTSID="{35433C77-95FC-47DE-9F84-8589C81C2070}"
+              DTS:DTSID="{D68FC353-5C56-4FFC-B885-0CBEE2595E82}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -310,7 +313,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Lifetime gift count"
-              DTS:DTSID="{7E3C9956-17E1-4FBF-9EDF-424170EF27DC}"
+              DTS:DTSID="{A3E53856-4836-4DAA-9C8F-01328AB086F9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -319,7 +322,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Lifetime gift $"
-              DTS:DTSID="{32368168-4534-42A2-A1E3-4B86506EEA73}"
+              DTS:DTSID="{B5341BEA-7F3C-4196-9C61-1846B0DFB946}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -908,7 +911,7 @@
                     <property
                       dataType="System.Boolean"
                       description="Indicates whether the Sort transformation removes rows with duplicate sort values."
-                      name="EliminateDuplicates">false</property>
+                      name="EliminateDuplicates">true</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the maximum number of threads to use for sorting."
@@ -2909,7 +2912,7 @@
           HeaderHeight="43"
           IsExpanded="True"
           PanelSize="407.333333333334,112.666666666667"
-          Size="407.333333333334,156"
+          Size="407.333333333334,155.333333333334"
           Id="Package\Sequence Container\Foreach Loop Container"
           TopLeft="5.50000000000003,131.166664419571" />
         <EdgeLayout
@@ -3141,7 +3144,7 @@
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-33.461640625,37,78.92328125,16"
+              BoundingBox="-24.59298828125,37,61.1859765625,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
