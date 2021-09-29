@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="17"
-  DTS:VersionGUID="{96F1D6D4-E238-49D5-9596-6EEEB20853E6}">
+  DTS:VersionBuild="18"
+  DTS:VersionGUID="{169CCD0A-A8DF-4F13-B550-457D04A143E4}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -30,7 +30,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\zmadmin\Desktop\3I Donor Acquisition\3I Donor Reassignments.csv">
+          DTS:ConnectionString="E:\3I Donor Acquisition\3I Donor Reassignments.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -39,7 +39,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Lookup ID"
-              DTS:DTSID="{463C353C-DA49-49F6-A56B-E6B14773B519}"
+              DTS:DTSID="{EF5B396A-89BC-464A-92D0-787E6611EC3B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Organization name"
-              DTS:DTSID="{E18DB2B6-5E65-423A-A457-B8FDA5E23598}"
+              DTS:DTSID="{1F3279A4-E3AD-47A3-9E86-DA842009CEC2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Addressee"
-              DTS:DTSID="{0C4552E9-B44E-412A-ACDD-C59DE1C632B3}"
+              DTS:DTSID="{1066611E-59B3-4B93-9FEE-3D3998FC48BA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Salutation"
-              DTS:DTSID="{A6E3130F-048F-438C-A891-8D921FAB3D92}"
+              DTS:DTSID="{1459A32D-F100-4BD0-92A4-2FECA76323CA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -75,7 +75,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Date added"
-              DTS:DTSID="{19065F8B-90E9-4B65-91C5-4A155C6969FD}"
+              DTS:DTSID="{C1D3BE7C-2CE9-4728-8568-DE9B762FFAC2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -84,7 +84,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Miss  code"
-              DTS:DTSID="{3BFAD5B9-FD46-4DE5-8F34-DFD6D579A9C3}"
+              DTS:DTSID="{FB2E966C-9CA0-4506-BA5A-04C24E3C24F1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -93,7 +93,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Email"
-              DTS:DTSID="{0CBF1EF6-286F-426A-9B60-65D45D39065E}"
+              DTS:DTSID="{5CD7428D-EE34-4584-A47E-2AD240114345}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -102,7 +102,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Address"
-              DTS:DTSID="{0312C464-AB20-4253-A636-FAC32D5202EF}"
+              DTS:DTSID="{1B54BD91-0BFF-4A85-AD8E-71C049976EF9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -111,7 +111,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="City"
-              DTS:DTSID="{09302B8F-5900-4A6E-AD90-035457912311}"
+              DTS:DTSID="{B1E4750B-6B85-4E9D-AD10-96890CCFB566}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -120,7 +120,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="State"
-              DTS:DTSID="{8AE5B2B3-6D11-4BB5-B6FF-3A1D54DC4AF1}"
+              DTS:DTSID="{EC7618D5-A04A-4C20-A1CF-FEC375B1F93D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -129,7 +129,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ZIP"
-              DTS:DTSID="{24CB12DF-8349-4031-9F31-FC05C01249ED}"
+              DTS:DTSID="{F2586508-1B78-4317-8DE8-10A7833E1818}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -138,7 +138,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Country"
-              DTS:DTSID="{DE483B58-80D4-4398-BE34-8F5E3E34DBA4}"
+              DTS:DTSID="{2AB840F0-91BC-4EC2-AD13-0BC2E35788E0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -147,7 +147,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="First gift dt"
-              DTS:DTSID="{FF00CCD5-C88C-455B-94AA-9366C2359124}"
+              DTS:DTSID="{99E81610-FF2F-47FC-933C-8D05C959BD6E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -156,7 +156,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Lifetime gift count"
-              DTS:DTSID="{D9A7C87A-5B28-4F0C-868C-751D19172EB6}"
+              DTS:DTSID="{A6AFDAE0-85F0-4778-90D4-57DECF21BA09}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -165,7 +165,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Lifetime gift $"
-              DTS:DTSID="{94673DF2-07F1-4DA9-B484-EB3FA9F3D086}"
+              DTS:DTSID="{F613B59C-2CA3-4BD5-BA44-5C1CD11CD567}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -177,7 +177,7 @@
       DTS:DTSID="{AA2FA791-6543-4A78-A231-A76C68C139E3}"
       DTS:ObjectName="Flat File Connection Manager 1">
       <DTS:PropertyExpression
-        DTS:Name="ConnectionString">"C:\\Users\\zmadmin\\Desktop\\3I Donor Acquisition\\" + Right("0" + (DT_STR,4,1252) DatePart("yy",getdate()),2) + Right("0" + (DT_STR,4,1252) DatePart("m",getdate()),2) + Right("0" + (DT_STR,4,1252) DatePart("d",getdate()),2) + " - " + TRIM( UPPER(@[User::MissionaryCode] ) ) + ".csv"</DTS:PropertyExpression>
+        DTS:Name="ConnectionString">"E:\\3I Donor Acquisition\\" + Right("0" + (DT_STR,4,1252) DatePart("yy",getdate()),2) + Right("0" + (DT_STR,4,1252) DatePart("m",getdate()),2) + Right("0" + (DT_STR,4,1252) DatePart("d",getdate()),2) + " - " + TRIM( UPPER(@[User::MissionaryCode] ) ) + ".csv"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Format="Delimited"
@@ -187,7 +187,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\zmadmin\Desktop\3I Donor Acquisition\210923 - .csv">
+          DTS:ConnectionString="E:\3I Donor Acquisition\210929 - .csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2940,7 +2940,7 @@
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="876,337.333333333334"
+          PanelSize="876,338"
           Size="876,380.666666666667"
           Id="Package\Sequence Container"
           TopLeft="106.249998416752,2.1999998295307" />
@@ -2953,47 +2953,13 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="152,42.6666666666667"
-          Id="Package\Sequence Container\DFT_Read_data_from_CSVfile_and_store_in_Recordset_destination\Flat File Source"
-          TopLeft="168.666666666667,55.3333333333333" />
-        <NodeLayout
           Size="98.6666666666667,42.6666666666667"
           Id="Package\Sequence Container\DFT_Read_data_from_CSVfile_and_store_in_Recordset_destination\Sort"
           TopLeft="175.333333333333,130.666666666667" />
-        <EdgeLayout
-          Id="Package\Sequence Container\DFT_Read_data_from_CSVfile_and_store_in_Recordset_destination.Paths[Flat File Source Output]"
-          TopLeft="244.666666666667,98">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-20,32.6666666666667"
-              Start="0,0"
-              End="-20,25.1666666666667">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,12.3333333333333" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,12.3333333333333"
-                    Point2="0,16.3333333333333"
-                    Point3="-4,16.3333333333333" />
-                  <mssgle:LineSegment
-                    End="-16,16.3333333333333" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-16,16.3333333333333"
-                    Point2="-20,16.3333333333333"
-                    Point3="-20,20.3333333333333" />
-                  <mssgle:LineSegment
-                    End="-20,25.1666666666667" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="152,42.6666666666667"
+          Id="Package\Sequence Container\DFT_Read_data_from_CSVfile_and_store_in_Recordset_destination\Flat File Source"
+          TopLeft="168.666666666667,55.3333333333333" />
         <NodeLayout
           Size="182.666666666667,42.6666666666667"
           Id="Package\Sequence Container\DFT_Read_data_from_CSVfile_and_store_in_Recordset_destination\Recordset Destination"
@@ -3024,6 +2990,40 @@
                     Point3="51.3333333333334,32.3333333333333" />
                   <mssgle:LineSegment
                     End="51.3333333333334,49.1666666666667" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Sequence Container\DFT_Read_data_from_CSVfile_and_store_in_Recordset_destination.Paths[Flat File Source Output]"
+          TopLeft="244.666666666667,98">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-20,32.6666666666667"
+              Start="0,0"
+              End="-20,25.1666666666667">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,12.3333333333333" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.3333333333333"
+                    Point2="0,16.3333333333333"
+                    Point3="-4,16.3333333333333" />
+                  <mssgle:LineSegment
+                    End="-16,16.3333333333333" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-16,16.3333333333333"
+                    Point2="-20,16.3333333333333"
+                    Point3="-20,20.3333333333333" />
+                  <mssgle:LineSegment
+                    End="-20,25.1666666666667" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
